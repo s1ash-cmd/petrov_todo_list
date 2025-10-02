@@ -1,0 +1,8 @@
+# Default ignored files
+/../../petrov_todo_list /.idea/shelf/
+/../../petrov_todo_list /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../petrov_todo_list /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../petrov_todo_list /.idea/dataSources/
+/../../petrov_todo_list /.idea/dataSources.local.xml
