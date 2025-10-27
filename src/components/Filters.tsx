@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Menu } from "lucide-react";
-import { Filter } from "../types";
+import { Filter } from "@/types";
 import { getFilterActiveClass } from "@/lib/utils";
 
 interface FilterOption {

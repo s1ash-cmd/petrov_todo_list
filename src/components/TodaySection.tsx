@@ -1,4 +1,4 @@
-import { Task } from "../types";
+import { Task } from "@/types";
 import TaskCard from "./TaskCard";
 import { RefreshCw, Eraser } from "lucide-react";
 

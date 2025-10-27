@@ -1,4 +1,4 @@
-import { Task, Filter } from "../types";
+import { Task, Filter } from "@/types";
 
 export function isEndingSoon(dueDate?: string) {
     if (!dueDate) return false;

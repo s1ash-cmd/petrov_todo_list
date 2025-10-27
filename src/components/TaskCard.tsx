@@ -1,4 +1,4 @@
-import { Task } from "../types";
+import { Task } from "@/types";
 import { getTaskClasses, isOverdue } from "@/lib/utils";
 import { Star, Edit2, Trash2, Check, X } from "lucide-react";
 import React from "react";

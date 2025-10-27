@@ -109,7 +109,6 @@ export default function Home() {
     const favoriteTasks = tasks.filter((t) => t.favorite).length;
     const endingTasks = tasks.filter((task) => isEndingSoon(task.dueDate) && !task.done);
     const overdueTasks = tasks.filter((t) => t.dueDate && !t.done && new Date(t.dueDate) < new Date()).length;
-    const activeNonOverdueTasks = tasks.filter((t) => !t.done && !(t.dueDate && new Date(t.dueDate) < new Date())).length;
 
     const filterOptions = [
         { label: "Все", value: "all" as const, count: totalTasks },

@@ -1,4 +1,4 @@
-import { Task } from "../types";
+import { Task } from "@/types";
 import { getStatusColor } from "@/lib/utils";
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, PieChart, Pie, Cell } from "recharts";
 
